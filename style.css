@@ -1,10 +1,37 @@
 body {
-  background-color: #778899;
+  animation: bgcolor infinite 20s;
   color: #FFFAF0;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
 }
 
+@keyframes bgcolor{
+  0%
+  {
+    background:#C4E538  ;
+  }
+  20%
+  {
+    background:#1289A7  ;
+  }
+  40%
+  {
+    background:#006266  ;
+  }
+  60%
+  {
+    background:#ED4C67 ;
+  }
+  80%
+  {
+    background:#5758BB  ;
+  }
+  100%
+  {
+    background:#ffda79 ;
+  }
+  
+}
 .exp-header {
   text-align: center;
   text-transform:uppercase;
